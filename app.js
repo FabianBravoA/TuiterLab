@@ -16,6 +16,7 @@ window.onload = function() {
             tuitDiv.appendChild(nameSpan);
             tuitDiv.appendChild(dateSpan);
             tuitDiv.appendChild(tuitP);
+            tuitDiv.className = "tuit"
             nameSpan.textContent = "El Brayatan";
             dateSpan.textContent = new Date();
             tuitP.textContent = thinkInput.value;
